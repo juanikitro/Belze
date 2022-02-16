@@ -28,3 +28,37 @@ body {
 		transform: translate(0, -0px);
 	}
 }
+
+.nav-dot {
+	transition: background 200ms, border-color 200ms;
+  }
+  
+.selected-circle {
+--tw-border-opacity: 1;
+border-color: #f21d3f;
+--tw-bg-opacity: 1;
+background-color: #f21d3f;
+}
+
+.nav-dot:hover span {
+	opacity: 1;
+}
+
+.nav-dot {
+	transition: background 200ms, border-color 200ms;
+}
+
+.nav-dot:hover span {
+	opacity: 1;
+}
+
+.border-nav {
+	--tw-border-opacity: 1;
+	border-color: rgba(64, 64, 83, var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:border-nav {
+	--tw-border-opacity: 1;
+	border-color: rgba(64, 64, 83, var(--tw-border-opacity));
+  }
+  
